@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h4>Aditya's Portfolio</h4>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstSection">Home</a></li>
+                    <li><a href="#secondSection">Work</a></li>
+                    <li><a href="#thirdSection">About</a></li>
+                    <li><a href="#forthSection">Projects</a></li>
+                    <li><a href="#footer">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="firstSection" class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="mint">Aditya</span>
+                <div>and I am a </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="/img/software-development.png" alt="">
+            </div>
+        </section>
+        <section id="secondSection" class="secondSection">
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/img/web.png" alt="">
+                    <div class="vertical-title">
+                        WEB Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Spearheaded the development of Yelp-Camp Project, contributing to the implementation of
+                        Bootstrap, node module to create robust and responsive web applications.
+                        Collaborated with cross-functional teams, including designers and back-end developers, to
+                        deliver seamless and visually appealing user interfaces.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/java.png" alt="">
+                    <div class="vertical-title">
+                        JAVA Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Spearheaded the design and implementation of Login /Registration page, leveraging core Java
+                        technologies to build efficient and maintainable code.
+                        Contributed to the development of server-side applications, incorporating Java EE or Spring
+                        Framework to ensure high performance and reliability.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/react.png" alt="">
+                    <div class="vertical-title">
+                        REACT Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Led the front-end development efforts, utilizing React.js to build interactive and responsive
+                        user interfaces for web applications.
+                        Developed reusable React components, ensuring a consistent and efficient development process
+                        across different sections of the application.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/img/python.png" alt="">
+                    <div class="vertical-title">
+                        PYTHON Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Led the development of Trafic Sign Detection using Python, contributing to the creation of
+                        efficient and maintainable code.
+                        Utilized Python frameworks such as Django or Flask for web development, ensuring
+                        high-performance and reliable applications.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="thirdSection" class="thirdSection">
+            <h1>Who I am ?</h1>
+            <h2>Full Stack Web Developer & Java Developer</h2>
+            <div>
+                <p>I'm Aditya Telsinge, a third-year computer science student from Ichalkaranji, Maharashtra, currently
+                    pursuing a BTech degree at DKTE College of Engineering and Textile. Passionate about technology, I
+                    have immersed myself in a comprehensive curriculum, gaining expertise in programming, algorithms,
+                    and software development.
+
+                    As I enter the third year, I look forward to taking on more advanced challenges, exploring
+                    cutting-edge technologies, and contributing to the evolving field of computer science. Beyond
+                    academics, I participate in hackathons and tech-related events, reflecting my commitment to
+                    continuous learning and innovation. With a bright future ahead, I am determined to make meaningful
+                    contributions to the world of technology.</p>
+            </div>
+
+        </section>
+        <section id="forthSection" class="forthSection">
+            <h1>My Work</h1>
+            <p>My collection of Projects</p>
+            <div class="my_work">
+                <a class="work_item" href="project1.html"><img src="img/landingPage.png" class="work_img"></a>
+                <a class="work_item" href="project2.html"><img src="img/calculator.png" class="work_img"></a>
+                <a class="work_item" href="project3.html"><img src="img/amazon.png" class="work_img"></a>
+                <a class="work_item" href="project4.html"><img src="img/candy.png" class="work_img"></a>
+                <a class="work_item" href="project5.html"><img src="img/price.png" class="work_img"></a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="footer">
+
+            <div class="footer-first">
+                <p>
+                <h2>Contact Me</h2>
+                </p>
+                <ul>
+
+                    <li><a href="https://www.linkedin.com/in/aditya-telsinge-029675229/?originalSubdomain=in"><img
+                                src="img/linkedin.png" alt=""></a></li>
+                    <li><a href="https://github.com/AdityaTel89/WebProject.git"><img src="img/github.png" alt=""></a>
+                    </li>
+                    <li><a href="mailto:adityatelsinge@gmial.com"><img src="img/gmail.png" alt=""></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="text-center">
+            Copyright &#169; adityaportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Developer', 'React Developer', 'Python Developer'],
+            typeSpeed: 40,
+        });
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
